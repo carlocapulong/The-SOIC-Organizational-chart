@@ -1,0 +1,66 @@
+.SDS{
+    border: 20px solid #020283;
+    border-style:double;
+    height: 800px;
+    margin: 70px;
+    box-sizing: border-box;
+}
+.SDS_office{
+    background-color: #020283;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.logo{
+    position: absolute;
+    overflow: left;
+}
+
+.logo img{
+    padding: 5px;
+    margin-right: 0px;
+}
+
+.title_head{
+    padding: 0;
+    margin: 0;
+}
+.title_head > p{
+    padding: 0;
+    margin: 0;
+}
+
+.title_head > h1{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+}
+.card {
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 10%;
+    height: 40%;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
