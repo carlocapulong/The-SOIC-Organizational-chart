@@ -1,7 +1,7 @@
 .SDS{
     border: 20px solid #020283;
     border-style:double;
-    height: 800px;
+    height: 100%;
     margin: 70px;
     box-sizing: border-box;
 }
@@ -37,30 +37,389 @@
     padding: 0;
     margin: 0;
     text-align: center;
+    font-size: 50px;
+}
+
+.aja{
+    position: absolute;
+    right: 95px;
+    top: 81px;
+    z-index: 1;
+}
+.aja img{
+    padding: 5px;
+    margin-top: 0px;
 }
 
 .title {
     text-align: center;
     font-size: 50px;
     margin: 0px;
+    padding: 12px;
+    text-shadow: 2px 2px grey;
 }
+/* SDS CARD */
 .card {
-    border: 1px solid black;
+    border: 3px solid #020283;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 10%;
-    height: 40%;
+    width: 15%;
+    height: 35%;
     border-radius: 5px;
+    margin: 0 12px 0 650px;
   }
-  
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
-  
-  img {
+  .container{
+    background-color: #020283;
+    color: white;
+    position: relative;
+    text-align: center;
+    border: 1px solid #ffff00;
+    width: 120%;
+    margin-top: -5px;
+    margin-left: -25px;
+    border-radius: 12px;
+}
+.container > h4{
+    padding: 0px;
+    margin: 0px 0 0 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+img {
     border-radius: 5px 5px 0 0;
   }
+
+  /* Lines */
   
-  .container {
-    padding: 2px 16px;
+#vline1 {
+    font-size:0;
+    width:6px;
+    height:90px;
+    color:#fff;
+    background-color:#000;
+    margin:auto;
   }
+#vline2 {
+    font-size:0;
+    width:901px;
+    height:6px;
+    color:#fff;
+    background-color:blue;    
+    margin:auto;
+ } 
+ #vline3 {
+    font-size:0;
+    width:6px;
+    height:70px;
+    color:#fff;
+    background-color:#000;
+    margin-left:317px;
+    padding: 0px;
+    display: inline-block;
+    margin-right: 317px;
+  }
+  #vline4 {
+    font-size:0;
+    width:6px;
+    height:70px;
+    color:#fff;
+    background-color:#000;
+    margin-left:120px;
+    padding: 0px;
+    display: inline-block;
+    margin-right: 317.5px;
+  }
+  #vline5 {
+    font-size:0;
+    width:6px;
+    height:70px;
+    color:#fff;
+    background-color:#000;
+    margin-left:120px;
+    padding: 0px;
+    display: inline-block;
+  }
+
+  .clerk__line{
+      position: relative;
+      display: inline-block;
+      margin: 0 0 0 0;
+  }
+
+  /* CLERK CARD2 */
+  .card2{
+    border: 3px solid #020283;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 10%;
+    height: 35%;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    margin:-25px 100px 20px 197px;
+}
+.card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+.container2{
+    background-color: #020283;
+    color: white;
+    position: relative;
+    text-align: center;
+    border: 1px solid #ffff00;
+    width: 120%;
+    margin-top: -5px;
+    margin-left: -15px;
+    border-radius: 12px;
+    padding:0px;
+}
+
+.container2 > h4{
+    padding: 0px;
+    margin: 0px 0 0 0px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.container2 > p {
+    padding: 1px;
+    margin: 5px;
+}
+.flex-container{
+    justify-content: center;
+}
+.flex-container {
+    margin-right: 90px;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+
+
+.container2 > h4{
+    padding: 0px;
+    margin: 0px 0 0 0px;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+.mandate{
+    font-size: 30px;
+}
+.mandate__list {
+    position: relative;
+    top: 8px;
+    left: 16px;
+}
+.mantra{
+    position: relative;
+    width: 85vw;
+    font-size: 30px;
+    background-color: #dd3e3e;
+    color: white;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    margin:30px -80px 0px -30px;
+}
+.mantra__list li{
+    display: inline-block;
+    padding: 30px;
+    margin-right: 100px;
+    position: relative;
+    cursor: pointer;
+    text-shadow: 2px 2px #bdb9b9;
+}
+.mantra__list li:hover{
+    display: inline-block;
+    padding: 30px;
+    margin-right: 100px;
+    position: relative;
+    cursor: pointer;
+    text-shadow: 2px 2px #bdb9b9;
+    color: yellow;
+}
+
+h6 {
+    color: grey;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+/* Flowchart */
+
+#container {
+    width:580px; 
+    font-family:verdana,arial,helvetica,sans-serif;
+    font-size:11px;
+    text-align:center;
+    margin:auto;
+ }  
+#container a {
+    display:block;
+    color:#000;
+    text-decoration:none;
+    background-color:#f6f6ff;
+ }
+#container a:hover {
+    color:#900;
+    background-color:#f6f6ff;
+ }
+#no1 {
+    width:190px;
+    line-height:60px;
+    border:1px solid #000;
+    margin:auto;
+ }
+#no1 a {
+    height:60px;
+ }
+#line1 {
+    font-size:0;
+    width:10px;
+    height:20px;
+    color:#fff;
+    background-color:#000;
+    margin:auto;
+ } 
+#line2 {
+    font-size:0;
+    width:424px;
+    height:10px;
+    color:#fff;
+    background-color:red;    
+    margin:auto;
+ } 
+#line3 {
+    font-size:0;
+    display:inline;
+    width:1px;
+    height:20px;
+    color:#fff;
+    background-color:#000;
+    margin-left:78px;
+    float:left;
+ }  
+#line4,#line5,#line6 {
+    font-size:0;
+    display:inline;
+    width:1px;
+    height:20px;
+    color:#fff;
+    background-color:#000;
+    margin-left:140px;
+    float:left;
+ }
+#no2 {
+    display:inline;
+    border:1px solid #000;
+    clear:both;
+    margin-left:35px;
+    float:left;
+ }
+#no2 a,#no4 a,#no8 a {
+    width:84px; 
+    height:50px;
+    padding-top:8px; 
+ }  
+#no3 {
+    display:inline;
+    border:1px solid #000;
+    margin-left:58px;
+    float:left;
+ }
+#no3 a,#no5 a,#no6 a,#no7 a,#no9 a {
+    width:84px; 
+    height:42px;
+    padding-top:16px;  
+ } 
+#no4 {
+    display:inline;  
+    border:1px solid #000;
+    margin-left:53px;
+    float:left;
+ }  
+#no5 {
+    display:inline;   
+    border:1px solid #000;
+    margin-left:55px;
+    float:left;
+ }  
+#line7,#line13 {
+    font-size:0;
+    display:inline;
+    width:1px;
+    height:38px;
+    color:#fff;
+    background-color:#000;
+    margin-left:219px;
+    float:left;
+ } 
+#line8,#line14 {
+    font-size:0;
+    display:inline;
+    width:1px;
+    height:38px;
+    color:#fff;
+    background-color:#000;
+    margin-left:281px;
+    float:left;
+ }  
+#no6,#no8 {
+    display:inline;  
+    border:1px solid #000;
+    margin-left:107px;
+    float:left;
+ }
+#line9,#line11,#line15,#line17 {
+    font-size:0;
+    display:inline;
+    width:26px;
+    height:1px;
+    color:#fff;
+    background-color:#000;    
+    margin-top:29px;
+    float:left;
+ }  
+#line10,#line12,#line16,#line18 {
+    font-size:0;
+    display:inline;
+    width:1px;
+    height:60px;
+    color:#fff;
+    background-color:#000;
+    float:left;
+ } 
+#line16,#line18 {
+    height:30px;
+ }
+#no7,#no9 {
+    display:inline; 
+    border:1px solid #000;
+    margin-left:169px;
+    float:left;
+ } 
+.clear {
+    clear:both;
+ }   
+
+
+ body {
+	background: linear-gradient(-45deg, #ee5252, #f7f7f7, #f7e441, #3f42f1);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
