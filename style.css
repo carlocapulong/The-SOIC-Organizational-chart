@@ -17,10 +17,11 @@
 .logo{
     position: absolute;
     overflow: left;
+    margin: 12px;
 }
 
 .logo img{
-    padding: 5px;
+    padding: 7px;
     margin-right: 0px;
 }
 
