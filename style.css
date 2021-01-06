@@ -27,10 +27,12 @@
 .title_head{
     padding: 0;
     margin: 0;
+    text-shadow: 2px 2px #050505;
 }
 .title_head > p{
     padding: 0;
     margin: 0;
+    text-shadow: 2px 2px #050505;
 }
 
 .title_head > h1{
@@ -38,6 +40,7 @@
     margin: 0;
     text-align: center;
     font-size: 50px;
+    text-shadow: 2px 2px #050505;
 }
 
 .aja{
@@ -401,15 +404,34 @@ h6 {
     margin-left:169px;
     float:left;
  }  */
+
+ /* This is background animation */
 .clear {
     clear:both;
  }   
-
-
- body {
-	background: linear-gradient(-45deg, #ee5252, #f7f7f7, #f7e441, #3f42f1);
+ 
+ section {
+	background: linear-gradient(-45deg, #ee5252, #f0ed67, #fafcfa,#082bf3 );
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.title_head {
+	background: linear-gradient(-45deg, #ee5252, #f0ed67, #fafcfa,#082bf3 );
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
 }
 
 @keyframes gradient {
